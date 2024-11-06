@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimación de PI con Montecarlo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Estimación de PI</h1>
+        <p>Utiliza el método de Montecarlo para aproximar el valor de PI. Entre más iteraciones uses, más precisa será la estimación.</p>
+        
+        <div class="input-group">
+            <label for="iteraciones">Número de Iteraciones</label>
+            <input type="number" id="iteraciones" value="1000000" min="1" placeholder="Ej. 1000000">
+        </div>
+        
+        <button onclick="calcularPI()">Calcular PI</button>
+        
+        <div class="result">
+            <h2>Resultado:</h2>
+            <p id="resultado">Valor aproximado de PI: </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

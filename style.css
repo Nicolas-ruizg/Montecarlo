@@ -1,0 +1,113 @@
+/* Estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Contenedor principal */
+.montecarlo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+    text-align: center;
+    position: relative;
+}
+
+/* Título y descripción */
+.montecarlo-form h2 {
+    font-size: 24px;
+    color: #ff0000;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.7);
+}
+
+.montecarlo-form p {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Grupo de entrada */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff8080;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: #cc0000;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+}
+
+/* Resultado */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #222;
+    box-shadow: inset 0px 3px 6px rgba(255, 0, 0, 0.2);
+}
+
+.result h3 {
+    font-size: 18px;
+    color: #ff8080;
+    margin-bottom: 8px;
+}
+
+#resultado {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
