@@ -7,7 +7,7 @@ function calcularPI() {
     }
 
     let puntosDentroDelCirculo = 0;
-
+ 
     for (let i = 0; i < iteraciones; i++) {
 
         let x = Math.random() * 2 - 1; 
